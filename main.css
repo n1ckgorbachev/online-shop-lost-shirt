@@ -8,3 +8,7 @@ body {
     min-height: 650px;
     background: url(/img/bg/hero.jpg) center center / cover no-repeat;
 }
+
+*{
+    margin: 0%;
+}
