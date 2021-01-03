@@ -5,34 +5,46 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./main.css" />
     <title>Главная страница</title>
 </head>
 
 <body>
     <!-- Header главной страницы -->
-    <section class="hero">
-        <header class="header">
-            <a href="index.html" class="logo">
-                <img src="./img/content/logos/logo-main.png" alt="lost shirt logo" class="logo__pict" />
-            </a>
-            <a href="mailto:lostinspace@mail.ru" class="mail">
-                <div class="mail__title">По всем вопросам пишите на:</div>
-                <div class="mail__content">lostinspace@mail.ru</div>
-            </a>
-        </header>
+    <div class="wrapper">
+        <section class="hero">
+            <header class="header">
+                <a href="index.html" class="logo">
+                    <img src="./img/content/logos/logo-main.png" alt="lost shirt logo" class="logo__pict" />
+                </a>
+                <a href="mailto:lostinspace@mail.ru" class="mail">
+                    <div class="mail__title">По всем вопросам пишите на:</div>
+                    <div class="mail__content">lostinspace@mail.ru</div>
+                </a>
+            </header>
 
-        <div class="fade-slider">
-            <div class="fade-slider__item">
-                <h1 class="lined-text">
-                    <div class="lined-text-word">три</div>
-                    <div class="lined-text-word">футболки</div>
-                    <div class="lined-text-word">по цене</div>
-                    <div class="lined-text-word">двух</div>
-                </h1>
+            <div class="hero__content">
+                <div class="fade-slider">
+                    <div class="fade-slider__item">
+                        <div class="fade-slider__text">
+                            <h1 class="lined-text">
+                                <div class="lined-text-word">три</div>
+                                <div class="lined-text-word lined-text-word--shift-right">футболки</div>
+                                <div class="lined-text-word lined-text-word--color-yellow">по цене</div>
+                                <div class="lined-text-word lined-text-word--color-yellow lined-text-word--shift-right">
+                                    двух
+                                </div>
+                            </h1>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
-    </section>
+
+        </section>
+    </div>
+
 </body>
 
 </html>
