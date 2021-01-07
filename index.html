@@ -22,7 +22,8 @@
         <section class="hero">
             <header class="header">
                 <a href="index.html" class="logo">
-                    <img src="./img/content/logos/logo-main.png" alt="lost shirt logo" class="logo__pict" />
+                    <img src="./img/content/logos/logo-main.png" alt="lost shirt logo" class="logo__pict"
+                        id="main__logo" />
                 </a>
                 <a href="mailto:lostinspace@mail.ru" class="mail">
                     <div class="mail__title">По всем вопросам пишите на:</div>
@@ -46,7 +47,49 @@
                     </div>
                 </div>
             </div>
+            <aside class="sidebar">
+                <a href="#" class="sidebar__hamburger">
+                    <svg class="sidebar__hamburger-icon">
+                        <use xlink:href="./img/icons-sprite.svg#bars"></use>
+                    </svg>
+                </a>
+                <div class="sidebar__header">
 
+                    <a href="#" class="logo">
+                        <img src="./img/content/logos/logo-main.png" alt="" class="logo__img">
+                    </a>
+                    <a href="#" class="sidebar__close">
+                        <svg class="sidebar__close-icon">
+                            <use xlink:href="./img/icons-sprite.svg#cross"></use>
+                        </svg>
+                    </a>
+                </div>
+                <nav class="side-menu sidebar-menu">
+                    <ul class="side-menu__list">
+                        <li class="side-menu__item">
+                            <a href="#" class="side-menu__link">Детская коллекция</a>
+                        </li>
+                        <li class="side-menu__item">
+                            <a href="#" class="side-menu__link">Мужская коллекция</a>
+                        </li>
+                        <li class="side-menu__item">
+                            <a href="#" class="side-menu__link">Женская коллекция</a>
+                        </li>
+                        <li class="side-menu__item">
+                            <a href="#" class="side-menu__link">Популярные принты</a>
+                        </li>
+                        <li class="side-menu__item">
+                            <a href="#" class="side-menu__link">Новые принты</a>
+                        </li>
+                        <li class="side-menu__item">
+                            <a href="#" class="side-menu__link">Специальные предложения</a>
+                        </li>
+                        <li class="side-menu__item">
+                            <a href="#" class="side-menu__link">Скоро в продаже</a>
+                        </li>
+                    </ul>
+                </nav>
+            </aside>
         </section>
 
         <!-- Секция товары -->
@@ -336,6 +379,7 @@
 
     </div>
 
+    <script src="./scripts/sidebar-menu.js"></script>
 </body>
 
 </html>
