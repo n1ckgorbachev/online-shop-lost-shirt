@@ -3,3 +3,5 @@
  ## Учебный проект
 
 Верстка из готовых psd макетов
+
+Запустить - https://n1ckgorbachev.github.io/online-shop-lost-shirt/#
